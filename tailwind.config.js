@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: { max: '374px' }, // Custom breakpoint for screens below 375px
+      },
       
     },
   },

@@ -17,10 +17,10 @@ function Header() {
   }, [isMenuOpen]);
 
   return (
-    <header className="fixed top-0  w-full bg-white xl:shadow-md z-50 justify-center  font-roboto p-4 ">
-      <div className="flex items-center justify-between px-2 sm:px-8 md:px-12    h-18 sm:h-20 lg:h-30">
+    <header className="relative fixed top-0  w-full bg-white xl:shadow-md z-50 justify-center  font-roboto  ">
+      <div className="flex items-center justify-between px-0 sm:px-0 md:px-12    h-18 sm:h-20 lg:h-30">
         {/* Logo */}
-      <div className=" p-4 rounded-full flex justify-center items-center">
+      <div className="  rounded-full flex justify-center items-center">
         <img
           src={logo1} // Replace with the correct image path
           alt="ITFFC Logo"
@@ -30,7 +30,7 @@ function Header() {
       {/* Text Section */}
       <div>
         <h1 className="text-xl font-bold text-blue-900  text-[15px] sm:text-[15px] lg:text-[20px]">ITFFC</h1>
-        <p className="text-sm text-gray-500">Innocent Times Foundation For Children</p>
+        <p className="text-xs text-gray-900 text-">Innocent Times Foundation For Children</p>
       </div>
 
       </div>
@@ -80,9 +80,9 @@ function Header() {
         <nav
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } absolute sm:static top-[120px] sm:top-auto left-0 w-full sm:w-auto bg-white sm:bg-transparent  sm:flex items-center flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-6 px-6 sm:px-0 py-6 sm:py-0 `}
+          } absolute sm:static top-[80px] sm:top-auto left-0 w-full sm:w-auto bg-white sm:bg-transparent  sm:flex items-center flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-6 px-4 sm:px-0 py-6 sm:py-0 `}
         >
-          <ul className="flex flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-6 text-[15px] sm:text-[12px] md:text-[15px] lg:text-[18px] text-black font-sans ">
+          <ul className="flex flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-6 text-[15px] sm:text-[12px] md:text-[13px] lg:text-[16px] text-black font-sans ">
             <li>
               <a
                 href="#home"
@@ -119,8 +119,8 @@ function Header() {
           <button className="bg-blue-800 text-white px-6 py-2  rounded-full hover:bg-blue-500 transition-all text-[10px] sm:text-[15px] font-roboto">
             Donate
           </button>
-          <div>
-          <hr  className=' border-blue-600 p-2 mr-10'  />
+          <div className='hidden xs:block'>
+          <hr  className=' border-blue-600 p-2 mr-8'  />
           </div>
          
         </nav>

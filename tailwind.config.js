@@ -10,6 +10,10 @@ export default {
       screens: {
         xs: { max: '374px' }, // Custom breakpoint for screens below 375px
       },
+      fontFamily: {
+        quicksand: ['Quicksand', 'sans-serif'],
+        inter:['Inter', 'sans-serif'],
+      },
       
     },
   },

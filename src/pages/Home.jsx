@@ -1,11 +1,12 @@
 import Header from '../components/common/Header';
-import HeroSection from '../components/HeroSection.jsx';
+import Main from '../components/Main';
+import Footer from '../components/common/Footer.jsx';
 function Home(){
     return (
-        <div className='flex flex-col gap-4 m-8'>
+        <div className=''>
             <Header />
-            <HeroSection/>
-           
+            <Main />
+            <Footer/>
         </div>
     );
 }

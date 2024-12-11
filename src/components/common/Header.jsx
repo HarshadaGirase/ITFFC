@@ -20,7 +20,7 @@ function Header() {
     <header className="relative fixed top-0  w-full bg-white xl:shadow-md z-50 justify-center  font-roboto  ">
       <div className="flex items-center justify-between px-0 sm:px-0 md:px-12    h-18 sm:h-20 lg:h-30">
         {/* Logo */}
-      <div className="  rounded-full flex justify-center items-center">
+       <div className="  rounded-full flex justify-center items-center">
         <img
           src={logo1} // Replace with the correct image path
           alt="ITFFC Logo"

@@ -1,22 +1,12 @@
 import Header from '../components/common/Header';
-import HeroSection from '../components/HeroSection.jsx';
-import Mission from '../components/Mission.jsx';
-import PerspectiveSection from '../components/perspectivesection.jsx';
-import ImageSection from '../components/ImageSection';
-import StatsCard from '../components/StatsCard.jsx';
-import OurProgram from '../components/OurProgram.jsx';
-import JoinUs from '../components/JoinUs.jsx';
+import Main from '../components/Main';
+import Footer from '../components/common/Footer.jsx';
 function Home(){
     return (
-        <div className='flex flex-col gap-10 m-8'>
+        <div className=''>
             <Header />
-            <HeroSection/>
-            <Mission/>     
-            <PerspectiveSection/>    
-            <ImageSection/>  
-            <StatsCard/>
-            <OurProgram/>
-            <JoinUs/>
+            <Main />
+            <Footer/>
         </div>
     );
 }

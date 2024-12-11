@@ -1,4 +1,4 @@
-import img1 from "../../src/assets/img1.png";
+import img1 from "../../assets/img1.png";
 
 const MissionSection = () => {
   return (

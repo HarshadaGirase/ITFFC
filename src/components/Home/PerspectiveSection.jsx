@@ -1,4 +1,4 @@
-import boyImg from "../../src/assets/boyImg.png"; // Update the path to the correct location
+import boyImg from "../../assets/boyImg.png"; // Update the path to the correct location
 
 const PerspectiveSection = () => {
   return (

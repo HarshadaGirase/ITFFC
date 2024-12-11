@@ -1,5 +1,5 @@
 
-import heroImg from '../../src/assets/heroImg.png';
+import heroImg from '../../assets/heroImg.png';
 const HeroSection = () => {
   return (
     <div className="flex justify-center items-center min-h-auto w-full ">

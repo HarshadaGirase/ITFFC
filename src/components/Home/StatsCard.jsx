@@ -1,4 +1,4 @@
-import innocenttimeslogo from '../../src/assets/innocenttimeslogo.png'
+import innocenttimeslogo from '../../assets/innocenttimeslogo.png'
 
 const StatsCard = () => {
   return (

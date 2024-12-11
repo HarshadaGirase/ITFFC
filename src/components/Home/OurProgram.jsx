@@ -1,7 +1,7 @@
 
-import img2 from "../../src/assets/img2.png";
-import img3 from "../../src/assets/img3.png";
-import img4 from "../../src/assets/img4.png";
+import img2 from "../../assets/img2.png";
+import img3 from "../../assets/img3.png";
+import img4 from "../../assets/img4.png";
 const OurProgram = () => {
   return (
     <section className="py-12 px-4 md:px-8 lg:px-[90px] bg-gray-100">

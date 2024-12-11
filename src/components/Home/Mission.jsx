@@ -1,7 +1,7 @@
 
-import bookicon from "../assets/bookicon.png";
-import spaicon from "../assets/spaicon.png";
-import cardiologyicon from "../assets/cardiologyicon.png";
+import bookicon from "../../assets/bookicon.png";
+import spaicon from "../../assets/spaicon.png";
+import cardiologyicon from "../../assets/cardiologyicon.png";
 const Mission = () => {
   return (
     <section className="bg-gray-100 py-10 px-6">

@@ -1,11 +1,11 @@
 
-import HeroSection from '../components/HeroSection.jsx';
-import Mission from '../components/Mission.jsx';
-import PerspectiveSection from '../components/perspectivesection.jsx';
-import ImageSection from '../components/ImageSection';
-import StatsCard from '../components/StatsCard.jsx';
-import OurProgram from '../components/OurProgram.jsx';
-import JoinUs from '../components/JoinUs.jsx';
+import HeroSection from '../components/Home/HeroSection.jsx';
+import Mission from '../components/Home/Mission.jsx';
+import PerspectiveSection from '../components/Home/PerspectiveSection.jsx';
+import ImageSection from '../components/Home/ImageSection.jsx';
+import StatsCard from '../components/Home/StatsCard.jsx';
+import OurProgram from '../components/Home/OurProgram.jsx';
+import JoinUs from '../components/Home/JoinUs.jsx';
 
 
 function Main(){

@@ -1,4 +1,4 @@
-import React from "react";
+
 import heroImg from '../../src/assets/heroImg.png';
 const HeroSection = () => {
   return (

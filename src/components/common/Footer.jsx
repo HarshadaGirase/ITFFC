@@ -1,5 +1,5 @@
 import logo1 from "../../assets/logo1.png";
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-[#304598] text-white py-8 lg:p-20">
@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-3 md:grid-cols-4 gap-6 sm:grid-cols-3  ">
           {/* Column 1 */}
           <div>
-            <h3 className="font-semibold text-[16px] leading-[20px] sm:text-[16px] sm:leading-[20px] md:text-[24px] md:leading-[29px] lg:text-[24px] lg:leading-[30px] font-quicksand mb-4">Our Work</h3>
+            <h3 className="font-semibold text-[16px] leading-[20px] sm:text-[16px] sm:leading-[20px] md:text-[24px] md:leading-[29px] lg:text-[24px] lg:leading-[30px] font-quicksand mb-4">  <Link to="/ourwork">Our Work</Link></h3>
             <ul>
               <li className="mb-2 text-[12px] leading-[15px] sm:text-[12px] sm:leading-[15px] md:text-[18px] md:leading-[21px] lg:text-[16px] lg:leading-[20px]">Our Impact</li>
               <li className="mb-2 text-[12px] leading-[15px] sm:text-[12px] sm:leading-[15px] md:text-[18px] md:leading-[21px] lg:text-[16px] lg:leading-[20px]">Programs</li>
@@ -18,14 +18,14 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-[16px] leading-[20px] sm:text-[16px] sm:leading-[20px] md:text-[24px] md:leading-[29px] lg:text-[24px] lg:leading-[30px] font-quicksand mb-4  ">Company</h3>
             <ul>
-              <li className="mb-2 text-[12px] leading-[15px] sm:text-[12px] sm:leading-[15px] md:text-[18px] md:leading-[21px] lg:text-[16px] lg:leading-[20px]">About Us</li>
+              <li className="mb-2 text-[12px] leading-[15px] sm:text-[12px] sm:leading-[15px] md:text-[18px] md:leading-[21px] lg:text-[16px] lg:leading-[20px]"><Link to="/aboutus">About Us</Link></li>
               <li className="mb-2 text-[12px] leading-[15px] sm:text-[12px] sm:leading-[15px] md:text-[18px] md:leading-[21px] lg:text-[16px] lg:leading-[20px]">Team</li>
             </ul>
           </div>
 
           {/* Column 3 */}
           <div>
-            <h3 className="font-semibold text-[16px] leading-[20px] sm:text-[16px] sm:leading-[20px] md:text-[24px] md:leading-[29px] lg:text-[24px] lg:leading-[30px] font-quicksand mb-4">Get Involved</h3>
+            <h3 className="font-semibold text-[16px] leading-[20px] sm:text-[16px] sm:leading-[20px] md:text-[24px] md:leading-[29px] lg:text-[24px] lg:leading-[30px] font-quicksand mb-4"><Link to="/getinvolved">Get Involved</Link></h3>
             <ul>
               <li className="mb-2 text-[12px] leading-[15px] sm:text-[12px] sm:leading-[15px] md:text-[18px] md:leading-[21px] lg:text-[16px] lg:leading-[20px]">Events</li>
               <li className="mb-2 text-[12px] leading-[15px] sm:text-[12px] sm:leading-[15px] md:text-[18px] md:leading-[21px] lg:text-[16px] lg:leading-[20px]">Opportunities</li>
@@ -48,7 +48,7 @@ const Footer = () => {
               </div>
               
             </div>
-         </div> */}
+         </div> */}<Link to="/">
             <div className=" ml-24 sm:ml-24 md:ml-0 lg:ml-0  rounded-2xl flex justify-center items-center bg-white h-[47px] w-[126px] sm:h-[47px] sm:w-[126px] md:h-[119px] md:w-[320px] lg:h-[115px] lg:w-[309.75px]">
         <img
           src={logo1} // Replace with the correct image path
@@ -62,7 +62,7 @@ const Footer = () => {
         <p className="text-black text-[5px] sm:text-[5px]  md:text-[5px] lg:text-[11.32px]  leading-[5px] sm:leading-[5px] md:leading-[14.15px] lg:leading-[13px]">Innocent Times Foundation</p> <p className="text-black text-[5px] sm:text-[5px]  md:text-[5px] lg:text-[11.32px]  leading-[5px] sm:leading-[5px] md:leading-[14.15px] lg:leading-[13px]">For Children</p>
       </div>
 
-      </div>          
+      </div> </Link>         
         </div>
         {/* Horizontal Line */}
         <hr className="border-t border-white mt-10 mb-10" />

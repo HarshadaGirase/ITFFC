@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 const JoinUs = () => {
   return (
@@ -8,7 +8,7 @@ const JoinUs = () => {
         Join us in making a difference! We offer various volunteer opportunities, from tutoring and mentoring to assisting with administrative tasks.
       </p>
       <button className="bg-white text-[#304598] text-[16px] leading-[20px] sm:text-[16px] sm:leading-[20px] md:text-[20px] md:leading-[25px]  lg:text-[16px] lg:leading-[20px] font-semibold w-[159px] h-[36px] sm:w-[158px] sm:h-[35px] md:w-[199px] md:h-[45px] lg:w-[199px] lg:h-[45px] rounded-full shadow-md hover:bg-gray-100 transition duration-300 mt-6">
-        Get Involved
+      <Link to="/getinvolved"> Get Involved</Link> 
       </button>
     </section>
   );

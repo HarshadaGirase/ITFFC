@@ -1,5 +1,6 @@
 
 import heroImg from '../../assets/heroImg.png';
+import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <div className="flex justify-center items-center min-h-auto w-full ">
@@ -37,12 +38,12 @@ const HeroSection = () => {
           <div className='flex gap-4 font-quicksand mt-10 '>
             <div className=''>
               <button className="text-[#304598] bg-white hover:bg-yellow-500 rounded-3xl shadow-md h-[19px] w-[87px] sm:h-[19px]  sm:w-[87px] md:h-[57px] lg:h-[45px]  md:w-[100] lg:w-[199px] text-[9px] sm:text-[9px] md:text-[20px] lg:text-[25px]">
-                  Get Involved
+              <Link to="/getinvolved">  Get Involved</Link>
               </button>
             </div>
             <div className=''>
               <button className="bg-[#304598] hover:bg-yellow-500 rounded-3xl shadow-md text-[9px] sm:text-[9px] md:text-[20px] lg:text-[25px] w-[65px] h-[19px] sm:w-[65px] sm:h-[19px] md:w-[193px] md:h-[57px] lg:w-[151px] lg:h-[45px]">
-                Donate
+              <Link to="/donate"> Donate</Link> 
               </button>
             </div>
 

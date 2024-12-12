@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import logo1 from "../../assets/logo1.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +20,7 @@ function Header() {
   return (
     <header className="relative fixed top-0  w-full bg-white xl:shadow-md z-50 justify-center  ">
       <div className="flex items-center justify-between px-0 sm:px-0 md:px-12    h-18 sm:h-20 lg:h-30 ">
-        {/* Logo */}
+        {/* Logo */}<Link to="/">
        <div className="  rounded-full flex justify-center items-center p-2">
         <img
           src={logo1} // Replace with the correct image path
@@ -34,6 +35,7 @@ function Header() {
       </div>
 
       </div>
+      </Link>
       
 
         {/* Menu Button for Mobile */}
@@ -83,20 +85,17 @@ function Header() {
           } fixed inset-x-0 sm:static top-[60px] sm:top-auto left-0 w-full sm:w-auto bg-white  sm:flex items-center flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-6 px-4 sm:px-0 py-6 sm:py-0 font-quicksand font-semibold transition-all h-screen sm:h-fit `}
         >
           <ul className="flex flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-6 text-[13px] sm:text-[13px] md:text-[13px] lg:text-[16px] sm:text-[12px] md:text-[13px] lg:text-[16px] text-black font-quicksand font-bold">
-            <li >
-              <a
-                href="#home"
-                className="block hover:text-blue-500 transition-all font-normal"
-              >
-                Home
-              </a>
+            <li className='block hover:text-blue-500 transition-all font-normal'>
+              
+            <Link to="/">Home</Link>
+              
             </li>
             <li>
               <a
                 href="#work"
                 className="block hover:text-blue-500 transition-all font-normal"
               >
-                Our Work
+                  <Link to="/ourwork">Our Work</Link> 
               </a>
             </li>
             <li>
@@ -104,7 +103,7 @@ function Header() {
                 href="#involved"
                 className="block hover:text-blue-500 transition-all font-normal"
               >
-                Get Involved
+               <Link to="/getinvolved">Get Involved</Link> 
               </a>
             </li>
             <li>
@@ -112,12 +111,12 @@ function Header() {
                 href="#about"
                 className="block hover:text-blue-500 transition-all font-normal"
               >
-                About Us
+                <Link to="/aboutus">  About Us</Link>
               </a>
             </li>
           </ul>
           <button className="bg-[#304598] text-white w-[86px] h-[32.2px] sm:w-[86px] sm:h-[32.2px] md:w-[97px] md:h-[40px] lg:w-[] lg:h-[] rounded-full hover:bg-blue-500 transition-all text-[13px] sm:text-[13px] md:text-[16px] lg:text-[16px] font-quicksand">
-            Donate
+           <Link to="/donate">Donate</Link>
           </button>
           <div className='hidden xs:block'>
           <hr  className=' border-blue-600 p-2 mr-8'  />

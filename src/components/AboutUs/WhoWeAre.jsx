@@ -10,12 +10,12 @@ const WhoWeAre = () => {
         
         <h2 className="text-[40px]  leading-[50px] text-black font-quicksand px-6 mb-16 mt-8">Who Are We?</h2>
         
-        <p className="px-10 text-black text-[16px] leading-[19.36px] sm:text-[16px] sm:leading-[19.36px] md:text-[24px] md:leading-[29px] lg:text-[24px] lg:leading-[29px]   ">
+        <p className="px-10 text-black text-[16px] leading-[19.36px] sm:text-[16px] sm:leading-[19.36px] md:text-[24px] md:leading-[29px] lg:text-[24px] lg:leading-[29px] font-inter  ">
           At Innocent Times Foundation, we are dedicated to nurturing the potential of every child, embracing diversity, and building a brighter future.
         </p>
-        <p className=" px-11 text-black text-[16px] leading-[19.36px] sm:text-[16px] sm:leading-[19.36px] md:text-[24px] md:leading-[29px] lg:text-[24px] lg:leading-[29px]   mb-8">
+        <p className=" px-11 text-black text-[16px] leading-[19.36px] sm:text-[16px] sm:leading-[19.36px] md:text-[24px] md:leading-[29px] lg:text-[24px] lg:leading-[29px]   mb-8  font-inter">
           Your support can help us continue our mission to provide inclusive education, support services, and a caring community for neurodiverse and underprivileged children. 
-          <span className="font-bold  text-black text-[16px] leading-[19.36px] sm:text-[16px] sm:leading-[19.36px] md:text-[24px] md:leading-[29px] lg:text-[24px] lg:leading-[29px]"> Together, we can make a difference.</span>
+          <span className="font-bold  text-black text-[16px] leading-[19.36px] sm:text-[16px] sm:leading-[19.36px] md:text-[24px] md:leading-[29px] lg:text-[24px] lg:leading-[29px]  font-inter"> Together, we can make a difference.</span>
         </p>
         </div>
         <div className="max-w-7xl">

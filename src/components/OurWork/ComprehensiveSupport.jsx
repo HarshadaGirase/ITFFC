@@ -60,12 +60,12 @@ const ComprehensiveSupport = () => {
 
   return (
     <div className="p-8 bg-gray-100">
-      <h2 className="p-6 font-quicksand text-[16.67px] leading-[20.84px] sm:text-[] sm:leading-[]  md:text-[40px] md:leading-[48.41px] lg:leading-[48.41px] lg:text-[40px]  font-bold text-center mb-8">
+      <p className="p-6 font-inter text-[16.67px] leading-[20.84px] sm:text-[] sm:leading-[]  md:text-[40px] md:leading-[48.41px] lg:leading-[48.41px] lg:text-[40px]   text-center mb-8">
       
         <span className="block lg:hidden text-[24px] leading-[30px] " > Comprehensive Support Programs</span>
         <span className="hidden lg:block text-[40px] leading-[50px]">    Comprehensive Support Services</span>
-      </h2>
-      <div className="flex flex-col gap-8 md:gap-12 px-6 sm:px-8 md:px-40 lg:px-48  ">
+      </p>
+      <div className="flex flex-col gap-8 md:gap-12 px-6 sm:px-8 md:px-40 lg:px-48  mb-8">
         {services.map((service) => (
           <div
             key={service.id}

@@ -3,7 +3,7 @@ import ourworkimg from '../../assets/ourwork.png';
 function OurWorkHeroSection(){
 
     return(  
-        <div className="relative w-full  h-[181px] sm:h-[181px]  xl:h-[346px] 2xl:h-[346px]  flex items-center justify-center bg-cover bg-center sm:bg-" style={{ backgroundImage: `url(${ourworkimg})` }}>
+        <div className="relative w-full  h-[181px] sm:h-[181px]  md:h-[346px] lg:h-[346px]  flex items-center justify-center bg-cover bg-center sm:bg-" style={{ backgroundImage: `url(${ourworkimg})` }}>
              <div
             className="absolute inset-y-0 left-0 w-full"
             style={{

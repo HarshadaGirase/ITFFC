@@ -59,7 +59,7 @@ const ComprehensiveSupport = () => {
   ];
 
   return (
-    <div className="p-8 bg-gray-100">
+    <div className="p-8 bg-gray-50">
       <p className="p-6 font-inter text-[16.67px] leading-[20.84px] sm:text-[] sm:leading-[]  md:text-[40px] md:leading-[48.41px] lg:leading-[48.41px] lg:text-[40px]   text-center mb-8">
       
         <span className="block lg:hidden text-[24px] leading-[30px] " > Comprehensive Support Programs</span>

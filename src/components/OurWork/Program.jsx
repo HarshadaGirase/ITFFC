@@ -40,7 +40,7 @@ const Program = () => {
   ];
 
   return (
-    <div className="p-6 bg-gray-100">
+    <div className="p-6 bg-gray-50">
       <h2 className=" font-bold text-center mb-6 mt-2 font-quicksand  ">
       <span className="block lg:hidden text-[24px] leading-[30px] ">Community Initiatives</span>
       <span className="hidden lg:block text-[40px] leading-[50px]">Programs</span>

@@ -10,7 +10,7 @@ import JoinUs from '../components/Home/JoinUs.jsx';
 
 function Main(){
     return (
-        <div className='flex flex-col gap-10 m-8'>
+        <div className='flex flex-col gap-10 m-6 sm:m-6 md:m-8 lg:m-8'>
            <HeroSection/>
             <Mission/>     
             <PerspectiveSection/>    

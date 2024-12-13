@@ -40,7 +40,7 @@ const Program = () => {
   ];
 
   return (
-    <div className="p-4 bg-gray-100">
+    <div className="p-6 bg-gray-100">
       <h2 className=" font-bold text-center mb-6 mt-2 font-quicksand  ">
       <span className="block lg:hidden text-[24px] leading-[30px] ">Community Initiatives</span>
       <span className="hidden lg:block text-[40px] leading-[50px]">Programs</span>
@@ -63,7 +63,7 @@ const Program = () => {
             {/* Text Section */}
             <div className="p-4 sm:p-4 md:p-6 lg:p-10 lg:w-1/2   ">
               <h3 className="text-[16.67px] leading-[20.84px] sm:[27px] sm:leading-[33px] md:text-[17.23px] md:leading-[20.85px] lg:text-[27px] lg:leading-[34px] font-semibold mb-4">{program.title}</h3>
-              <p className="mr-0 sm:mr-0 md:mr-4 lg:mr-6 text-[10.67px] leading-[12.91px] sm:text-[10.67px] sm:leading-[12.91px] md:text-[17.23px] md:leading-[20.85px] lg:text-[17px] lg:leading-[20.85px] text-gray-700 mb-4">{program.description}</p>
+              <p className="mr-0 sm:mr-0 md:mr-4 lg:mr-6 text-[10.67px] leading-[12.91px] sm:text-[10.67px] sm:leading-[12.91px] md:text-[17.23px] md:leading-[20.85px] lg:text-[17px] lg:leading-[20.85px] text-black mb-4">{program.description}</p>
               <button className="ml-[55px] sm:ml-[60px] md:ml-0 lg:ml-0 bg-[#304598] text-white text-[9.23px] sm:text-[9.23px] md:text-[16px] lg:text-[16px] rounded-full hover:bg-blue-600 h-[23.54px] sm:h-[23.54px] w-[56.09px] sm:w-[56.09px] md:w-[97px] md:h-[40px] lg:w-[97px] lg:h-[40px] font-quicksand ">
                 Donate
               </button>

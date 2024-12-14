@@ -40,7 +40,7 @@ const CommunityInitiatives = () => {
               <img
                 src={service.image}
                 alt={service.title}
-                className="w-full h-[102px] sm:h-[102px] md:h-[266px] lg:h-[266px] object-cover rounded-t-xl  lg:rounded-t-none object-cover"
+                className="w-full h-full object-cover rounded-t-xl  lg:rounded-t-none object-cover"
               />
             </div>
 

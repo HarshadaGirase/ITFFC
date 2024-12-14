@@ -1,6 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import img6 from '../../assets/img6.png';
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 const GetInvolvedJoinUs = () => {
+    const [phone, setPhone] = useState("");
   return (
     <div className="min-h-screen  flex flex-col md:flex-row items-center justify-center mb-6">
       {/* Left Side Image */}
@@ -46,17 +49,21 @@ const GetInvolvedJoinUs = () => {
           {/* Phone Number Field */}
           <div className=''>
             <label className="block text-black font-medium  mb-2 font-inter text-[14px] leading-[18px]">Phone number</label>
-            <div className="flex font-inter text-[15px]">
-              <select className="border border-gray-300 rounded-l-lg px-4 py-2  focus:ring-2 focus:ring-blue-400">
-                <option value="IN">IN</option>
-                <option value="US">US</option>
-                <option value="UK">UK</option>
-              </select>
-              <input
-                type="tel"
+            <div className=" flex font-inter text-[15px]">
+            <PhoneInput
+                type="text"
+                
+                value={phone}
+                onChange={setPhone}
                 placeholder=""
-                className="flex-1 border  border-gray-300 rounded-r-lg px-4 py-2 focus:ring-2 focus:ring-blue-400 focus:outline-none"
+                inputClass="!w-full !h-full !pl-16 !border-gray-300 !rounded-lg !px-4 !py-2 !focus:outline-none !focus:ring-2 !focus:ring-blue-400"
+                buttonClass="!absolute !left-0 !h-full !bg-gray-100 !border-r !border-gray-300 !focus:outline-none"
+                dropdownClass="!bg-white !border-gray-300 !rounded-md !shadow-md"
+                containerClass="relative w-full"
               />
+
+               
+              
             </div>
           </div>
 

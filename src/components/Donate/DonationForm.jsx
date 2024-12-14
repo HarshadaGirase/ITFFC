@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
 const DonationForm = () => {
   const [donationType, setDonationType] = useState("oneTime");
-
+  const [phone, setPhone] = useState("");
   return (
     <div className="max-w-2xl mx-auto p-4  bg-white border border-gray-100 ">
       <h1 className="text-[48px] leading-[60px] font-quicksand font-bold text-center mb-4">Make A Donation!</h1>
@@ -165,15 +167,18 @@ const DonationForm = () => {
               <label>
               <span className='font-quicksand font-semibold mb-4'>Phone Number</span>
             <div className="flex">
-              <select className="p-2 border rounded-md">
-                <option value="IN">IN</option>
-                <option value="US">US</option>
-              </select>
               
-              <input
+              
+              <PhoneInput
                 type="text"
-                placeholder="Phone number"
-                className="flex-1 p-2 border rounded-md"
+               
+                value={phone}
+                onChange={setPhone}
+                placeholder="Phone Number"
+                inputClass="!w-full !h-full !pl-16 !border-gray-300 !rounded-lg !px-4 !py-2 !focus:outline-none !focus:ring-2 !focus:ring-blue-400"
+                buttonClass="!absolute !left-0 !h-full !bg-gray-100 !border-r !border-gray-300 !focus:outline-none"
+                dropdownClass="!bg-white !border-gray-300 !rounded-md !shadow-md"
+                containerClass="relative w-full"
               />
               
             </div>
@@ -181,15 +186,7 @@ const DonationForm = () => {
           </div>
         </div>
 
-        {/* Additional Details
-        <div className="mb-6">
-          <h2 className="text-lg font-semibold mb-2">Additional Details</h2>
-          <textarea
-            placeholder="Leave a message or additional information"
-            className="w-full p-2 border rounded-md"
-          />
-        </div> */}
-
+      
         {/* Submit Button */}
         <div className="text-center">
           <button

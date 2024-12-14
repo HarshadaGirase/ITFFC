@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import logo1 from "../../assets/logo1.png";
-import { Link } from "react-router-dom";
+
+import { Link, useLocation } from "react-router-dom";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const location = useLocation();
   useEffect(() => {
     if (isMenuOpen) {
       document.body.style.overflow = "hidden";
@@ -16,6 +17,8 @@ function Header() {
       document.body.style.overflow = "auto";
     };
   }, [isMenuOpen]);
+
+  const isActive = (path) => location.pathname === path;
 
   return (
     <header className="relative fixed top-0  w-full bg-white xl:shadow-md z-50 justify-center  ">
@@ -84,35 +87,34 @@ function Header() {
             isMenuOpen ? "block" : "hidden"
           } fixed inset-x-0 sm:static top-[60px] sm:top-auto left-0 w-full sm:w-auto bg-white  sm:flex items-center flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-6 px-4 sm:px-0 py-6 sm:py-0 font-quicksand font-semibold transition-all h-screen sm:h-fit `}
         >
-          <ul className="flex flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-6 text-[13px] sm:text-[13px] md:text-[13px] lg:text-[16px] sm:text-[12px] md:text-[13px] lg:text-[16px] text-black font-quicksand font-bold">
-            <li className='block hover:text-blue-500 transition-all font-normal'>
-              
-            <Link to="/">Home</Link>
-              
+          <ul className="flex flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-6 text-[13px] sm:text-[13px] md:text-[13px] lg:text-[16px] sm:text-[12px] md:text-[13px] lg:text-[16px] text-black ">
+          <li
+              className={`block transition-all font-normal ${
+                isActive("/") ? "text-blue-500" : "hover:text-orange-500"
+              }`}
+            >
+              <Link to="/">Home</Link>
             </li>
-            <li>
-              <a
-                href="#work"
-                className="block hover:text-blue-500 transition-all font-normal"
-              >
-                  <Link to="/ourwork">Our Work</Link> 
-              </a>
+            <li
+              className={`block transition-all font-normal ${
+                isActive("/ourwork") ? "text-blue-500" : "hover:text-orange-500"
+              }`}
+            >
+              <Link to="/ourwork">Our Work</Link>
             </li>
-            <li>
-              <a
-                href="#involved"
-                className="block hover:text-blue-500 transition-all font-normal"
-              >
-               <Link to="/getinvolved">Get Involved</Link> 
-              </a>
+            <li
+              className={`block transition-all font-normal ${
+                isActive("/getinvolved") ? "text-blue-500" : "hover:text-orange-500"
+              }`}
+            >
+              <Link to="/getinvolved">Get Involved</Link>
             </li>
-            <li>
-              <a
-                href="#about"
-                className="block hover:text-blue-500 transition-all font-normal"
-              >
-                <Link to="/aboutus">  About Us</Link>
-              </a>
+            <li
+              className={`block transition-all font-normal ${
+                isActive("/aboutus") ? "text-blue-500" : "hover:text-orange-500"
+              }`}
+            >
+              <Link to="/aboutus">About Us</Link>
             </li>
           </ul>
           <button className="bg-[#304598] text-white w-[86px] h-[32.2px] sm:w-[86px] sm:h-[32.2px] md:w-[97px] md:h-[40px] lg:w-[] lg:h-[] rounded-full hover:bg-blue-500 transition-all text-[13px] sm:text-[13px] md:text-[16px] lg:text-[16px] font-quicksand">

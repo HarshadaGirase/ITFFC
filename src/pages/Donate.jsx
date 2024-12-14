@@ -1,10 +1,10 @@
 
-
+import DonateMain from '../components/DonateMain.jsx';
 function Donate(){
 
     return(
         <div>
-            <h1>Donate</h1>
+            <DonateMain/>
         </div>
     );
 }

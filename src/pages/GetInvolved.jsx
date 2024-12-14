@@ -1,10 +1,9 @@
 
-
+import GetInvolvedMain from '../components/GetInvolvedMain.jsx'
 function GetInvolved() {
   return (
     <div>
-      <h1>Get Involved</h1>
-      <p>Get involved with the community</p>
+      <GetInvolvedMain/>
     </div>
   );
 }

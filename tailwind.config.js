@@ -12,8 +12,8 @@ export default {
         // 'sm': '374px',    // Small devices (phones)
         // 'md': '768px',    // Default medium size
         // 'lg': '1024px',   // Default large size
-        // 'xl': '1200px',   // Custom breakpoint for 1200px
-        // '2xl': '1440px',  // Custom breakpoint for 1440px
+        'xl': '1200px',   // Custom breakpoint for 1200px
+        '2xl': '1440px',  // Custom breakpoint for 1440px
       },
       fontFamily: {
         quicksand: ['Quicksand', 'sans-serif'],

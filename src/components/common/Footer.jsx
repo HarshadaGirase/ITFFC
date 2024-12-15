@@ -49,7 +49,7 @@ const Footer = () => {
               
             </div>
          </div> */}<Link to="/">
-            <div className=" ml-24 sm:ml-24 md:ml-0 lg:ml-0  rounded-2xl flex justify-center items-center bg-white h-[47px] w-[126px] sm:h-[47px] sm:w-[126px] md:h-[119px] md:w-[320px] lg:h-[115px] lg:w-[309.75px]">
+            <div className=" ml-28 sm:ml-28 md:ml-0 lg:ml-0  rounded-2xl flex justify-center items-center bg-white h-[47px] w-[126px] sm:h-[47px] sm:w-[126px] md:h-[119px] md:w-[320px] lg:h-[115px] lg:w-[309.75px]">
         <img
           src={logo1} // Replace with the correct image path
           alt="ITFFC Logo"

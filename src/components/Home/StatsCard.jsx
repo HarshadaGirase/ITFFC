@@ -2,14 +2,14 @@ import innocenttimeslogo from '../../assets/innocenttimeslogo.png'
 
 const StatsCard = () => {
   return (
-    <div className="bg-[#304598] text-white py-10 px-5 md:px-20">
+    <div className="bg-[#304598] text-white py-10  md:px-20">
       <div className="max-w-8xl mx-auto">
         <div className="flex flex-col md:flex-row  items-center ">
           <div className="mb-2  md:mb-0 flex items-center">
             <img
               src={innocenttimeslogo} // Replace with the logo's actual path
               alt="School Logo"
-              className="h-[69px]  lg:mr-40"
+              className="h-[69px]  lg:mr-32"
             />
           </div>
 
@@ -31,8 +31,8 @@ const StatsCard = () => {
           </div>
         </div>
 
-        <div className="mt-20 text-center  ">
-          <p className="text-[20px] sm:text-[20px] md:text-[24px] lg:text-[32px] font-semibold font-quicksand leading-[25px] sm:leading-[25px] md:leading-[25px] lg:leading-[40px]">
+        <div className="mt-20 text-center px-5 md:px-10 lg:px-28  ">
+          <p className=" text-[20px] sm:text-[20px] md:text-[24px] lg:text-[32px] font-semibold font-quicksand leading-[25px] sm:leading-[25px] md:leading-[25px] lg:leading-[40px]">
             At Innocent Times School, we believe in specialized education to
             empower neurodiverse children for holistic development.
           </p>

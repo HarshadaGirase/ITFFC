@@ -20,6 +20,10 @@ function Header() {
 
   const isActive = (path) => location.pathname === path;
 
+  const handleMenuClose = () => {
+    setIsMenuOpen(false); // This will close the menu
+  };
+
   return (
     <header className="relative fixed top-0  w-full bg-white xl:shadow-md z-50 justify-center  ">
       <div className="flex items-center justify-between px-0 sm:px-0 md:px-12    h-18 sm:h-20 lg:h-30 ">
@@ -93,32 +97,32 @@ function Header() {
                 isActive("/") ? "text-blue-500" : "hover:text-orange-500"
               }`}
             >
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={handleMenuClose}>Home</Link>
             </li>
             <li
               className={`block transition-all font-normal ${
                 isActive("/ourwork") ? "text-blue-500" : "hover:text-orange-500"
               }`}
             >
-              <Link to="/ourwork">Our Work</Link>
+              <Link to="/ourwork" onClick={handleMenuClose}>Our Work</Link>
             </li>
             <li
               className={`block transition-all font-normal ${
                 isActive("/getinvolved") ? "text-blue-500" : "hover:text-orange-500"
               }`}
             >
-              <Link to="/getinvolved">Get Involved</Link>
+              <Link to="/getinvolved" onClick={handleMenuClose}>Get Involved</Link>
             </li>
             <li
               className={`block transition-all font-normal ${
                 isActive("/aboutus") ? "text-blue-500" : "hover:text-orange-500"
               }`}
             >
-              <Link to="/aboutus">About Us</Link>
+              <Link to="/aboutus" onClick={handleMenuClose}>About Us</Link>
             </li>
           </ul>
           <button className="bg-[#304598] text-white w-[86px] h-[32.2px] sm:w-[86px] sm:h-[32.2px] md:w-[97px] md:h-[40px] lg:w-[] lg:h-[] rounded-full hover:bg-blue-500 transition-all text-[13px] sm:text-[13px] md:text-[16px] lg:text-[16px] font-quicksand">
-           <Link to="/donate">Donate</Link>
+           <Link to="/donate" onClick={handleMenuClose}>Donate</Link>
           </button>
           <div className='hidden xs:block'>
           <hr  className=' border-blue-600 p-2 mr-8'  />

@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        xs: { max: '374px' }, // Custom breakpoint for screens below 375px
+        xs: { max: '378px' }, // Custom breakpoint for screens below 375px
         // 'sm': '374px',    // Small devices (phones)
         // 'md': '768px',    // Default medium size
         // 'lg': '1024px',   // Default large size

@@ -2,14 +2,14 @@ import boyImg from "../../assets/boyImg.png"; // Update the path to the correct 
 
 const PerspectiveSection = () => {
   return (
-    <div className="flex flex-col bg-gray-100 p-6 sm:p-10 lg:px-40  gap-6">
+    <div className="flex flex-col bg-gray-50 p-6 sm:p-10 lg:px-40  gap-6">
       <div>
         <h2 className="text-center text-[21px] sm:text-[24px] md:text-[32px] lg:text-[40px] font-bold mb-4 font-quicksand leading-[26px] sm:leading-[30px] md:leading-[40px] lg:leading-[50px]">
           A Global Perspective
         </h2>
       </div>
       <div>
-        <p className="text-center text-black text-[12px] sm:text-[14px] md:text-[18px] lg:text-[24px] mb-6 leading-[16px] sm:leading-[20px] md:leading-[26px] lg:leading-[32px]">
+        <p className="px-14 0text-center text-black text-[12px] sm:text-[14px] md:text-[18px] lg:text-[24px] mb-6 leading-[16px] sm:leading-[20px] md:leading-[26px] lg:leading-[29px]">
           Over the past 15 years, we have seen firsthand how the high cost of
           therapy and education forces parents to make difficult choices—often
           delaying essential services that can significantly impact a child’s

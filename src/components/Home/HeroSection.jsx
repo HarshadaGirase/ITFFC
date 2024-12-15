@@ -35,7 +35,7 @@ const HeroSection = () => {
            <p>  We envision a world where every child thrives,</p>  <p>embracing diversity and empowering neurodiverse kids</p>  <p>to reach their full potential.</p>
           </p>
         </div>
-          <div className='flex gap-4 font-quicksand mt-10 '>
+          <div className='flex gap-2 font-quicksand mt-10 '>
             <div className=''>
               <button className="text-[#304598] bg-white hover:bg-yellow-500 rounded-3xl shadow-md h-[19px] w-[87px] sm:h-[19px]  sm:w-[87px] md:h-[57px] lg:h-[45px]  md:w-[100] lg:w-[199px] text-[9px] sm:text-[9px] md:text-[20px] lg:text-[25px]">
               <Link to="/getinvolved">  Get Involved</Link>

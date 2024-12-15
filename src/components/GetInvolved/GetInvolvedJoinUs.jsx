@@ -16,7 +16,7 @@ const GetInvolvedJoinUs = () => {
       </div>
 
       {/* Right Side Form */}
-      <div className="md:w-1/2 w-full px-4  bg-white  md:p-10 lg:p-10">
+      <div className="md:w-1/2 w-full px-4  bg-white  md:p-10 lg:p-8">
         <h2 className="   text-[33px]  leading-[41px] sm:text-[34px]  sm:leading-[41px] md:text-[48px]  md:leading-[60px]  lg:text-[48px]  lg:leading-[60px] font-bold font-quicksand text-gray-800 mb-4">
           Join us in making a difference!
         </h2>

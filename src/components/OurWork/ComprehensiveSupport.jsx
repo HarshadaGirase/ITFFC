@@ -1,5 +1,12 @@
 import React from "react";
 import img4 from '../../assets/img2.png';
+import img7 from '../../assets/img7.png';
+import img8 from '../../assets/img8.png';
+import img9 from '../../assets/img9.png';
+import img10 from '../../assets/img10.png';
+import img11 from '../../assets/img11.png';
+import img12 from '../../assets/img12.png';
+import img13 from '../../assets/img13.png';
 const ComprehensiveSupport = () => {
   const services = [
     {
@@ -14,47 +21,47 @@ const ComprehensiveSupport = () => {
       title: "Occupational Therapy (OT)",
       description:
         "Addressing sensory processing issues, motor skills development, and daily living activities to improve the overall quality of life for neurodiverse children.",
-      image: img4, // Replace with actual image URL
+      image: img7, // Replace with actual image URL
     },
     {
         id: 3,
         title: "Art Based Therapy (ABT)",
         description:
           "Enhancing physical abilities, coordination, balance, and motor skills to enable children to participate more fully in various activities.",
-        image: img4, // Replace with actual image URL
+        image: img8, // Replace with actual image URL
       },
       {
         id: 4,
         title: "Physical Therapy (PT)",
         description:
           "Enhancing physical abilities, coordination, balance, and motor skills to enable children to participate more fully in various activities.",
-        image: img4, // Replace with actual image URL
+        image: img9, // Replace with actual image URL
       }, {
         id: 5,
         title: "Sensory Integration",
         description:
           "Utilizing a sensory-rich environment to stimulate learning and development, ensuring children receive the appropriate sensory input necessary for their growth. change content to this",
-        image: img4, // Replace with actual image URL
+        image: img10, // Replace with actual image URL
       }, {
         id: 6,
         title: "Speech Therapy (Coming Soon)",
         description:
           "Addressing sensory processing issues, motor skills development, and daily living activities to improve the overall quality of life for neurodiverse children.",
-        image: img4, // Replace with actual image URL
+        image: img11, // Replace with actual image URL
       },
       {
         id: 7,
         title: "Parent Training",
         description:
           "Focusing on improving communication skills, speech articulation, and language comprehension, helping children express themselves and interact more effectively with their peers and surroundings.",
-        image: img4, // Replace with actual image URL
+        image: img12, // Replace with actual image URL
       },
       {
         id: 8,
         title: "Remediation Programs",
         description:
           "Our remediation programs are tailored to meet the unique learning profiles of neurodiverse children. By addressing cognitive, behavioral, and sensory needs, we aim to foster academic progress and promote social integration.",
-        image: img4, // Replace with actual image URL
+        image: img13, // Replace with actual image URL
       },
   ];
 

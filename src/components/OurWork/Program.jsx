@@ -1,9 +1,9 @@
 import React from "react";
-// import program1 from '../../assets/program1.jpg';
-// import program2 from '../../../assets/program2.jpg';
-// import program3 from '../../../assets/program3.jpg';
+import program1 from '../../assets/program1.png';
+import program2 from '../../assets/program2.png';
+import getinvolvedheroimg from '../../assets/getinvolvedheroimg.png';
 import img4 from '../../assets/img4.png';
-
+import { Link} from "react-router-dom";
 const Program = () => {
   const programs = [
     {
@@ -19,7 +19,7 @@ const Program = () => {
         "School Readiness Program for Children with Developmental Delays (Ages 2-6)",
       description:
         "We understand the challenges faced by children with developmental delays and their families. Our School Readiness Program offers early intervention services, focusing on creating specialized individual plans for each child. By working closely with parents, we prepare these young learners for a smoother transition into formal education settings.",
-      image: img4, // Replace with the actual image path
+      image: program1, // Replace with the actual image path
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const Program = () => {
           "Individualized Education Program (IEP) Based School for Neurodiverse Children (Ages 6-14)",
         description:
           "Our school program for neurodiverse children is built on the foundation of Individualized Education Programs (IEP). Each child's unique strengths, challenges, and learning styles are taken into account to create a tailored educational path. We provide a nurturing environment that encourages academic, social, and personal growth.",
-        image:img4, // Replace with the actual image path
+        image:program2, // Replace with the actual image path
       },
       {
       id: 4,
@@ -35,7 +35,7 @@ const Program = () => {
         "Prevocational Program for Teenagers (Ages 14-18)",
       description:
         "The transition to adulthood can be particularly challenging for neurodiverse teenagers. Our Prevocational Program equips these young adults with essential life skills, vocational training, and social skills needed to thrive in the outside world. We aim to foster independence and prepare them for meaningful employment and community participation.",
-      image: img4, // Replace with the actual image path
+      image:  getinvolvedheroimg , // Replace with the actual image path
     },
   ];
 
@@ -65,7 +65,8 @@ const Program = () => {
               <h3 className="text-[16.67px] leading-[20.84px] sm:[27px] sm:leading-[33px] md:text-[17.23px] md:leading-[20.85px] lg:text-[27px] lg:leading-[34px] font-semibold mb-4">{program.title}</h3>
               <p className="mr-0 sm:mr-0 md:mr-4 lg:mr-6 text-[10.67px] leading-[12.91px] sm:text-[10.67px] sm:leading-[12.91px] md:text-[17.23px] md:leading-[20.85px] lg:text-[17px] lg:leading-[20.85px] text-black mb-4">{program.description}</p>
               <button className="ml-[55px] sm:ml-[60px] md:ml-0 lg:ml-0 bg-[#304598] text-white text-[9.23px] sm:text-[9.23px] md:text-[16px] lg:text-[16px] rounded-full hover:bg-blue-600 h-[23.54px] sm:h-[23.54px] w-[56.09px] sm:w-[56.09px] md:w-[97px] md:h-[40px] lg:w-[97px] lg:h-[40px] font-quicksand ">
-                Donate
+
+                  <Link to="/donate" >Donate</Link>
               </button>
             </div>
           </div>

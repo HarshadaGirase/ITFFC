@@ -49,17 +49,17 @@ const Footer = () => {
               
             </div>
          </div> */}<Link to="/">
-            <div className=" ml-28 sm:ml-28 md:ml-0 lg:ml-0  rounded-2xl flex justify-center items-center bg-white h-[47px] w-[126px] sm:h-[47px] sm:w-[126px] md:h-[119px] md:w-[320px] lg:h-[115px] lg:w-[309.75px]">
+            <div className=" ml-28 sm:ml-28 md:ml-0 lg:ml-0  rounded-2xl flex justify-center items-center bg-white h-[40px] w-[110px] sm:h-[40px] sm:w-[110px] md:h-[90px] md:w-[200px] lg:h-[100px] lg:w-[250px]">
         <img
           src={logo1} // Replace with the correct image path
           alt="ITFFC Logo"
-          className="w-[37px] h-[36px]  sm:w-[37px] sm:h-[36px] md:w-[92.39px] md:h-[90.54px] lg:w-[89.5px] lg:h-[87.71px] object-contain p-2"
+          className="w-[37px] h-[36px]  sm:w-[37px] sm:h-[30px] md:w-[80px] md:h-[80px] lg:w-[89.5px] lg:h-[87.71px] object-contain p-2"
         />
-        <div className="p-2 h-[20px] border-l-2 border-black sm:h-[55px] md:h-[55px] lg:h-[55px]"></div>
+        <div className="p-2 h-[20px] border-l-2 border-black md:h-[55px] xl:h-[55px] 2xl:h-[55px]"></div>
       {/* Text Section */}
-      <div>
-        <h1 className="text-xl font-bold text-blue-900  text-[14px] sm:text-[15px] md:text-[36px] lg:text-[35px] leading-[18px] sm:leading-[18px] md:leading-[45px] lg:leading-[44px]">ITFFC</h1>
-        <p className="text-black text-[5px] sm:text-[5px]  md:text-[5px] lg:text-[11.32px]  leading-[5px] sm:leading-[5px] md:leading-[14.15px] lg:leading-[13px]">Innocent Times Foundation</p> <p className="text-black text-[5px] sm:text-[5px]  md:text-[5px] lg:text-[11.32px]  leading-[5px] sm:leading-[5px] md:leading-[14.15px] lg:leading-[13px]">For Children</p>
+       <div>
+   
+        <p className="text-[6px] leading-[7px] sm:text-[5px] sm:leading-[7px] md:text-[8px] md:leading-[8.13px] lg:text-[13px] lg:leading-[13px]  text-[#304598]  font-quicksand font-bold">Innocent Times</p> <p className='font-bold text-[6px] leading-[7px] sm:text-[5px] sm:leading-[7px] md:text-[6.51px] md:leading-[8.13px] lg:text-[13px] lg:leading-[13px]  text-[#304598]  font-quicksand'> Foundation</p>  <p className="text-[6px] leading-[7px] sm:text-[5px] sm:leading-[7px] md:text-[6.51px] md:leading-[8.13px] lg:text-[13px] lg:leading-[13px]  text-[#304598]  font-quicksand font-bold" > For Children</p>
       </div>
 
       </div> </Link>         

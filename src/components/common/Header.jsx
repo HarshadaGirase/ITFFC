@@ -37,8 +37,8 @@ function Header() {
         <div className="p-2 h-[22px] border-l-2 border-black sm:h-[55px] md:h-[55px] lg:h-[35px]"></div>
       {/* Text Section */}
       <div>
-        <h1 className="text-[15px] leading-[19px] sm:text-[15px] sm:leading-[19px] md:text-[15px] md:leading-[19px] lg:text-[21px] lg:leading-[26px] font-bold text-[#304598]  font-quicksand ">ITFFC</h1>
-        <p className="text-[4.75px] leading-[6px] sm:text-[4.75px] sm:leading-[6px] md:text-[6.51px] md:leading-[8.13px] lg:text-[8.03px] lg:leading-[10.04px]  text-black font-inter">Innocent Times Foundation</p>  <p className="text-[4.75px] leading-[6px] sm:text-[4.75px] sm:leading-[6px] md:text-[6.51px] md:leading-[8.13px] lg:text-[8.03px] lg:leading-[10.04px]  text-black font-inter" > For Children</p>
+        {/* <h1 className="text-[15px] leading-[19px] sm:text-[15px] sm:leading-[19px] md:text-[15px] md:leading-[19px] lg:text-[21px] lg:leading-[26px] font-bold text-[#304598]  font-quicksand ">ITFFC</h1> */}
+        <p className="text-[5px] leading-[6px] sm:text-[4.75px] sm:leading-[6px] md:text-[6.51px] md:leading-[8.13px] lg:text-[13px] lg:leading-[13px]  text-[#304598]  font-quicksand font-bold">Innocent Times</p> <p className='font-bold text-[4.75px] leading-[6px] sm:text-[4.75px] sm:leading-[6px] md:text-[6.51px] md:leading-[8.13px] lg:text-[13px] lg:leading-[13px]  text-[#304598]  font-quicksand'> Foundation</p>  <p className="text-[4.75px] leading-[6px] sm:text-[4.75px] sm:leading-[6px] md:text-[6.51px] md:leading-[8.13px] lg:text-[13px] lg:leading-[13px]  text-[#304598]  font-quicksand font-bold" > For Children</p>
       </div>
 
       </div>

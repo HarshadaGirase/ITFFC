@@ -9,6 +9,7 @@ import AboutUs from "./pages/AboutUs";
 import Header from './components/common/Header'
 import Footer from "./components/common/Footer";
 import Donate from "./pages/Donate";
+import UPIPayment from "./components/Payment/UPIPayment";
 function App() {
  
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/getinvolved" element={<GetInvolved/>} />
         <Route path="/aboutus" element={<AboutUs/>} />
         <Route path="/donate" element={<Donate/>} />
+        <Route path="/upi-payment" element={<UPIPayment />}/>
       </Routes>
    
       <Footer />

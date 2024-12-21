@@ -1,10 +1,17 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
+import { useNavigate } from "react-router-dom";
 const DonationForm = () => {
   const [donationType, setDonationType] = useState("oneTime");
   const [phone, setPhone] = useState("");
+  const navigate = useNavigate();
+
+  const handleDonateClick = () => {
+    navigate("/upi-payment"); // Redirect to the UPI Payment page
+  };
+
   return (
     <div className="max-w-2xl mx-auto p-4  bg-white border border-gray-100 ">
       <h1 className="text-[48px] leading-[60px] font-quicksand font-bold text-center mb-4">Make A Donation!</h1>
@@ -192,7 +199,7 @@ const DonationForm = () => {
           <button
             type="submit"
             className="w-full bg-[#304598] text-white  h-[36px]  font-inter text-[16px] leading-[24px] rounded-full hover:bg-indigo-700 transition"
-          >
+            onClick={handleDonateClick}>
             Proceed
           </button>
         </div>

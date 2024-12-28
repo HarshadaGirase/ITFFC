@@ -1,53 +1,77 @@
-
 import bookicon from "../../assets/bookicon.png";
 import spaicon from "../../assets/spaicon.png";
+import saveicon from "../../assets/saveicon.png";
 import cardiologyicon from "../../assets/cardiologyicon.png";
+import handshakeicon from "../../assets/handshakeicon.png";
+const cards = [
+  {
+    icon: bookicon,
+    title: "Making Education and Therapy Affordable",
+    description:
+      "We are committed to reducing the financial burden on families by bringing down the cost of education and therapy. Too often, the high cost of these services becomes a barrier, preventing children from receiving the help they need when they need it most.",
+  },
+  {
+    icon: cardiologyicon,
+    title: "Comprehensive Services Under One Roof",
+    description:
+      "One of the key issues parents face is the lack of access to both education and therapy in a single location. We offer a holistic approach by providing both essential services under one roof, ensuring convenience and consistency for families. This integrated approach makes it easier for parents to manage their child’s progress without the added stress of coordinating multiple providers.",
+  },
+  {
+    icon: saveicon,
+    title: "Addressing Expensive, Long-Term Therapies",
+    description:
+      "Therapeutic interventions often require long-term commitments. With many therapies needing up to six sessions per week and lasting for months or even years, the cumulative costs become overwhelming for many families. We are dedicated to making these critical services more affordable and accessible.",
+  },
+  {
+    icon: spaicon,
+    title: "Supporting Early Intervention",
+    description:
+      "Early intervention is key to ensuring the best outcomes for children with developmental delays. Unfortunately, due to unaffordability, many families are forced to delay intervention, leading to further cognitive delays and other developmental challenges. Innocent Times Foundation is committed to providing timely and affordable therapies to prevent these costly delays.",
+  },
+  {
+    icon: handshakeicon,
+    title: "Prioritizing Health Over Delays",
+    description:
+      "Every delay in accessing therapy or educational support can have a lasting impact on a child's future. We aim to remove the financial and logistical barriers that force families to wait, allowing children to receive the immediate help they need to thrive.",
+  },
+];
+
 const Mission = () => {
   return (
-    <section className="bg-gray-50 py-10 px-6">
-      <div className="max-w-7xl mx-auto  sm:px-10 lg:px-20 leading-[25px] sm:leading-[25px]  ">
-        <h1 className="px-2 text-[20px] text-center sm:text-[20px] md:text-[27px] lg:text-[40px] font-bold mb-4 font-quicksand ">Making dreams happen, that’s our mission.</h1>
-        <p className="text-black align-center text-center px-[28px] sm:px-[28px] lg:px-[100px] align-center mb-10 font-inter text-[9px] sm:text-[9px] md:text-[16px] lg:text-[16px] leading-[10px] sm:leading-[10px] lg:leading-[19px]">
+    <section className="bg-gray-50 py-10 px-6 flex justify-center items-center">
+      <div className="max-w-7xl w-full mx-auto">
+        {/* Title */}
+        <h1 className="text-center text-[20px] md:text-[27px] lg:text-[40px] font-bold font-quicksand mb-6">
+          Making dreams happen, that’s our mission.
+        </h1>
+        <p className="text-center text-[#304598] px-[28px] lg:px-[80px] font-inter text-[9px] md:text-[16px] lg:text-[20px] leading-[10px] lg:leading-[24px] mb-10">
           At Innocent Times Foundation, our mission is to address the urgent challenges faced by families
           seeking quality education and therapy for their children.
         </p>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-6 md:px-0 lg:px-0">
-          {/* Card 1 */}
-          <div className="bg-white rounded-xl shadow-md p-4 border-2  max-w-xs hover:bg-gray-200 transition-colors duration-300">
-            <div className=" mb-6">
-            <img src={bookicon} alt="" className='h-[28px] w-[28px] sm:h-[28px] md:h-[28px] lg:h-[40px] sm:w-[28px] md:w-[40px] lg:w-[40px]' />
-            </div>
-           
-            <h2 className="text-[17px] leading-[21px] md:leading-[30px] lg:leading-[21px] sm:text-[17px] sm:text-[24px] md:text-[24px] lg:text-[24px] font-semibold mb-2 font-quicksand mb-6">Empowering Children</h2>
-            <p className="text-black  font-inter text-[12px] sm:text-[12pxpx] md:text-[16px] lg:text-[16px] leading-[13px]  sm:leading-[13px] md:leading-[20px] lg:leading-[20px]">
-              We provide education, healthcare, nutrition, and essential support to specially-abled and
-              under-privileged children.
-            </p>
-          </div>
-          {/* Card 2 */}
-          <div className="bg-white rounded-xl shadow-md p-4 border-2 max-w-xs hover:bg-gray-200 transition-colors duration-300">
-            <div className=" mb-6 ">
-              <img src={cardiologyicon} alt="" className='h-[28px] w-[28px] sm:h-[28px] md:h-[28px] lg:h-[40px] sm:w-[28px] md:w-[40px] lg:w-[40px]'/>
-            </div>
-           
-            <h2 className=" font-semibold mb-6 font-quicksand text-[17px] sm:text-[17px] sm:text-[24px] md:text-[24px] lg:text-[24px]">Holistic Development</h2>
-            <p className="text-black font-inter text-[12px] sm:text-[12pxpx] md:text-[16px] lg:text-[16px] leading-[14px]  sm:leading-[14px] md:leading-[20px] lg:leading-[20px]">
-              We focus on educational, social, cultural, economic, and medical support to nurture overall
-              growth and well-being.
-            </p>
-          </div>
-          {/* Card 3 */}
-          <div className="bg-white rounded-xl shadow-md p-4  border-2  max-w-xs hover:bg-gray-200 transition-colors duration-300 ">
-            <div className=" mb-6">
-            <img src={spaicon} alt="" className='h-[28px] w-[28px] sm:h-[28px] md:h-[28px] lg:h-[40px] sm:w-[28px] md:w-[40px] lg:w-[40px]' />
-            </div>
-           
-            <h2 className=" font-semibold mb-2 font-quicksand text-[17px] sm:text-[17px] sm:text-[24px] md:text-[24px] lg:text-[24px] mb-6">Family Welfare</h2>
-            <p className="text-black font-inter text-[12px] sm:text-[12pxpx] md:text-[16px] lg:text-[16px] leading-[14px]  sm:leading-[14px] md:leading-[20px] lg:leading-[20px]">
-              We extend our efforts to uplift families, ensuring sustainable support and a brighter future
-              for the children.
-            </p>
+
+        {/* Cards Grid Centered */}
+        <div className="flex justify-center items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-14">
+            {cards.map((card, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl shadow-md p-6 border-2 hover:bg-gray-200 transition-colors duration-300 pr-8"
+              >
+                <div className="mb-6 font-semibold">
+                  <img
+                    src={card.icon}
+                    alt={card.title}
+                    className="h-[28px] w-[28px] lg:h-[40px] lg:w-[40px]"
+                  />
+                </div>
+                <h2 className="text-[17px] lg:text-[24px] font-semibold font-quicksand mb-4 pr-8">
+                  {card.title}
+                </h2>
+                <p className="text-black mt-6 font-inter font-light text-[12px] md:text-[16px] lg:text-[16px] leading-[14px] lg:leading-[20px]">
+                  {card.description}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -10,10 +10,8 @@ const PerspectiveSection = () => {
       </div>
       <div>
         <p className="px-8 text-center text-black text-[9px] sm:text-[9px] md:text-[18px] lg:text-[24px] mb-6 leading-[10px] sm:leading-[20px] md:leading-[26px] lg:leading-[29px]">
-          Over the past 15 years, we have seen firsthand how the high cost of
-          therapy and education forces parents to make difficult choices—often
-          delaying essential services that can significantly impact a child’s
-          developmental health.{" "}
+        The World Health Organization (WHO) estimates that approximately 15-20% of the global population exhibits some form of neurodivergence. Neurodiverse individuals, including children, often face significant challenges related to empowerment and support.
+             {" "}
           <span className="lg:font-bold text-black ">
             Our goal is to change this.
           </span>

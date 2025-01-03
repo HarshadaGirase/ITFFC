@@ -4,7 +4,7 @@ import img3 from "../../assets/img3.png";
 import img4 from "../../assets/img4.png";
 const OurProgram = () => {
   return (
-    <section className="py-12 px-12 md:px-8 lg:px-[90px] bg-gray-100">
+    <section className="py-12 px-12 md:px-8 lg:px-[120px] bg-gray-100">
       <h2 className="text-[24px] text-[24px]  text-[24px] sm:text-[24px] md:text-[34px] lg:text-[40px]  font-semibold font-quicksand leading-[30px] sm:leading-[30px] md:leading-[42px] lg:leading-[50px] text-center mb-8">Our Programs</h2>
       <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
         {/* Card 1 */}

@@ -8,7 +8,7 @@ const cards = [
     icon: bookicon,
     title: "Making Education and Therapy Affordable",
     description:
-      "We are committed to reducing the financial burden on families by bringing down the cost of education and therapy. Too often, the high cost of these services becomes a barrier, preventing children from receiving the help they need when they need it most.",
+      " We are committed to reducing the financial burden on families by bringing down the cost of education and therapy. Too often, the high cost of these services becomes a barrier, preventing children from receiving the help they need when they need it most.",
   },
   {
     icon: cardiologyicon,
@@ -32,14 +32,14 @@ const cards = [
     icon: handshakeicon,
     title: "Prioritizing Health Over Delays",
     description:
-      "Every delay in accessing therapy or educational support can have a lasting impact on a child's future. We aim to remove the financial and logistical barriers that force families to wait, allowing children to receive the immediate help they need to thrive.",
+      "Every delay in accessing therapy or educational support can have a lasting impact on a child's future. We aim to remove the financial and logistical barriers that force families to wait, allowing children to receive the immediate help they need to thrive. Add more specific stats only talking about neurodiverse children Increasing rate of autism",
   },
 ];
 
 const Mission = () => {
   return (
     <section className="bg-gray-50 py-10 px-6 flex justify-center items-center">
-      <div className="max-w-7xl w-full mx-auto">
+      <div className="max-w-6xl w-full mx-auto">
         {/* Title */}
         <h1 className="text-center text-[20px] md:text-[27px] lg:text-[40px] font-bold font-quicksand mb-6">
           Making dreams happen, that’s our mission.
@@ -67,7 +67,7 @@ const Mission = () => {
                 <h2 className="text-[17px] lg:text-[24px] font-semibold font-quicksand mb-4 pr-8">
                   {card.title}
                 </h2>
-                <p className="text-black mt-6 font-inter font-light text-[12px] md:text-[16px] lg:text-[16px] leading-[14px] lg:leading-[20px]">
+                <p className=" text-black mt-6 font-inter font-light text-[12px] md:text-[16px] lg:text-[16px] leading-[14px] lg:leading-[20px]">
                   {card.description}
                 </p>
               </div>

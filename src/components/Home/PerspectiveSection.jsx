@@ -22,8 +22,8 @@ const PerspectiveSection = () => {
         {/* Left Box */}
         <div className="bg-white shadow-lg rounded-2xl border-2 flex-1 flex items-center justify-center  ">
           <p className="text-black text-[14px] sm:text-[18px] md:text-[36px] lg:text-[40px] font-quicksand leading-[18px] sm:leading-[24px] md:leading-[32px] lg:leading-[46px] text-left font-semibold p-10 lg:p-10">
-            Every <span className="text-orange-500 font-bold">5 in 10</span>{" "}
-            children are experiencing severe economic hardships globally.
+            Every <span className="text-orange-500 font-bold">2 in 10</span>{" "}
+           children exhibit some form of neurodivergence globally.
           </p>
         </div>
         {/* Right Box */}   

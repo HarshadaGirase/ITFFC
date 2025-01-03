@@ -1,11 +1,11 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import heroImg2 from "../../assets/heroImg2.jpeg";
-import heroImg3 from "../../assets/heroImg3.jpg";
-import heroImg4 from "../../assets/heroImg4.jpeg";
-import heroImg5 from "../../assets/heroImg5.jpeg";
-import heroImg6 from "../../assets/heroImg6.jpeg";
+import heroImg2 from "../../assets/Img1.jpg";
+import heroImg3 from "../../assets/Img3.jpg";
+import heroImg4 from "../../assets/Img4.jpg";
+import heroImg5 from "../../assets/Img5.jpg";
+import heroImg6 from "../../assets/Img2.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

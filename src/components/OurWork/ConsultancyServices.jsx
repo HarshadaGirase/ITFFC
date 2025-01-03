@@ -1,5 +1,5 @@
 import React from "react";
-import img4 from '../../assets/img2.png';
+import img4 from '../../assets/img5.png';
 const ConsultancyServices = () => {
   const services = [
     {

@@ -50,12 +50,12 @@ const Mission = () => {
         </p>
 
         {/* Cards Grid Centered */}
-        <div className="flex justify-center items-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-14">
+        <div className="flex justify-center items-center ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-14 ">
             {cards.map((card, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl shadow-md p-6 border-2 hover:bg-gray-200 transition-colors duration-300 pr-8"
+                className=" rounded-2xl shadow-md p-6 border-2 hover:bg-[#78b0f0] transition-colors bg-[#99bde8] duration-300 pr-8"
               >
                 <div className="mb-6 font-semibold">
                   <img

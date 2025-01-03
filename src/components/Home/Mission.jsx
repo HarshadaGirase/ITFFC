@@ -55,7 +55,7 @@ const Mission = () => {
             {cards.map((card, index) => (
               <div
                 key={index}
-                className=" rounded-2xl shadow-md p-6 border-2 hover:bg-[#78b0f0] transition-colors bg-[#99bde8] duration-300 pr-8"
+                className=" rounded-2xl shadow-md p-6 border-2 hover:bg-[#78b0f0] transition-colors bg-[#515bb8] duration-300 pr-8"
               >
                 <div className="mb-6 font-semibold">
                   <img

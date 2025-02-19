@@ -12,13 +12,7 @@ const CommunityInitiatives = () => {
         "We ensure financial challenges don’t block access to quality education, offering subsidized services so every child gets the care they deserve.",
       image: img4, // Replace with actual image URL
     },
-    {
-      id: 2,
-      title: "Meal a Day Scheme",
-      description:
-        "Our Meal a Day Scheme offers nutritious meals to underprivileged children, ensuring they receive the essential dietary support for their physical and mental development.",
-      image: img3, // Replace with actual image URL
-    },
+   
     
   ];
 

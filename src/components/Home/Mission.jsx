@@ -42,7 +42,7 @@ const Mission = () => {
       <div className="max-w-6xl w-full mx-auto">
         {/* Title */}
         <h1 className="text-center text-[20px] md:text-[27px] lg:text-[40px] font-bold font-quicksand mb-6">
-          Making dreams happen, that’s our mission.
+          Learning Without Limits Belonging Without Boundaries, that’s our mission.
         </h1>
         <p className="text-center text-[#304598] px-[28px] lg:px-[80px] font-inter text-[9px] md:text-[16px] lg:text-[20px] leading-[10px] lg:leading-[24px] mb-10">
           At Innocent Times Foundation, our mission is to address the urgent challenges faced by families
@@ -55,7 +55,7 @@ const Mission = () => {
             {cards.map((card, index) => (
               <div
                 key={index}
-                className=" rounded-2xl shadow-md p-6 border-2 hover:bg-[#78b0f0] transition-colors bg-[#515bb8] duration-300 pr-8"
+                className=" rounded-2xl shadow-md p-6 border-2 bg-[#78b0f0] transition-colors duration-300 pr-8"
               >
                 <div className="mb-6 font-semibold">
                   <img
